@@ -31,3 +31,7 @@ Makefile*
 # System
 
 .fuse_*
+
+# Source Tree
+Examples/*
+
