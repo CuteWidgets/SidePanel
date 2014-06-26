@@ -1,0 +1,12 @@
+#ifndef SIDEPANEL_GLOBAL_H
+#define SIDEPANEL_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(SIDEPANEL_LIBRARY)
+#  define SIDEPANELSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define SIDEPANELSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // SIDEPANEL_GLOBAL_H
