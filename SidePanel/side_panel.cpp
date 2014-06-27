@@ -96,7 +96,11 @@ void SidePanel::addSection(const QString &name, const QIcon &icon, QWidget *cont
 
 void SidePanel::setWidget(const QString &sectionName, QWidget *contentWidget)
 {
-
+    Q_UNUSED(sectionName)
+    Q_UNUSED(contentWidget)
+    ///TODO
+    /// set the widget contentWidget to the section sectionName
+    /// *This is not needed if we create the section by passing the widget.
 }
 
 void SidePanel::activateSection(int index)

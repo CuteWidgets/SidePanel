@@ -29,6 +29,15 @@ SideBar::SideBar(QWidget *parent) :
     m_vTogglerHovered(false),
     m_togglerVisible(true)
 {
+    fxdWidth = 64;
+    iconMargins = 4;
+    itemWidth = fxdWidth;
+    itemHeight = itemWidth;
+    offset = 20;
+    spacing = 0;
+    margin = 2;
+    vTogglerWidth = 25;
+    vTogglerHeight = vTogglerWidth;
     setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
     setFixedWidth(fxdWidth);
     setMouseTracking(true);
@@ -201,6 +210,7 @@ void SideBar::paintEvent(QPaintEvent *event)
 
 void SideBar::leaveEvent(QEvent *event)
 {
+    Q_UNUSED(event)
     m_currentHoveredIndex = -1;
     update();
 }

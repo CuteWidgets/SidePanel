@@ -53,15 +53,15 @@ private:
     int m_currentActionIndex;
     int m_currentHoveredIndex;
 
-    const int fxdWidth = 64;
-    const int iconMargins = 4;
-    const int itemWidth = fxdWidth;
-    const int itemHeight = itemWidth;
-    const int offset = 20;
-    const int spacing = 0;
-    const int margin = 2;
-    const int vTogglerWidth = 25;
-    const int vTogglerHeight = vTogglerWidth;
+    int fxdWidth;
+    int iconMargins;
+    int itemWidth;
+    int itemHeight;
+    int offset;
+    int spacing;
+    int margin;
+    int vTogglerWidth;
+    int vTogglerHeight;
 
     bool m_useEnvPalette;
 

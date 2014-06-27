@@ -36,6 +36,7 @@ public:
 
 public slots:
     void actionToggled(bool enable);
+    void showTips();
 
 private:
     Ui::MainWindow *ui;

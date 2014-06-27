@@ -10,7 +10,7 @@ TARGET = SidePanel
 TEMPLATE = lib
 
 DESTDIR = $$PWD/../lib/
-CONFIG += c++11
+#CONFIG += c++11
 
 DEFINES += SIDEPANEL_LIBRARY
 
