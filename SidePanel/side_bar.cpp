@@ -94,7 +94,7 @@ void SideBar::paintEvent(QPaintEvent *event)
 
     QFont fontText(p.font());
     fontText.setPixelSize(10);
-    fontText.setFamily("Helvetica Neue");
+    fontText.setStyleHint(QFont::SansSerif);
     fontText.setBold(true);
     p.setFont(fontText);
 
