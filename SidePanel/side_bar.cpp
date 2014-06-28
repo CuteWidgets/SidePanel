@@ -23,8 +23,8 @@
 SideBar::SideBar(QWidget *parent) :
     QWidget(parent),
     m_currentActionIndex(-1),
-    m_useEnvPalette(false),
     m_currentHoveredIndex(-1),
+    m_useEnvPalette(false),
     m_panelVisible(true),
     m_vTogglerHovered(false),
     m_togglerVisible(true)
@@ -129,7 +129,8 @@ void SideBar::paintEvent(QPaintEvent *event)
         p.restore();
     }
 
-    for (int i = 0; i < actions().size(); ++i) {
+    for (int i = 0, size = actions().size(); i < size; ++i) {
+
         p.save();
         p.translate(0, offset + i * (spacing + itemHeight));
         if(i == m_currentActionIndex) {
