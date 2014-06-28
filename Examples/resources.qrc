@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="brown.png">images/coffeebean.png</file>
+        <file alias="green.png">images/component_green.png</file>
+        <file alias="red.png">images/component_red.png</file>
+        <file alias="yellow.png">images/component_yellow.png</file>
+        <file alias="blue.png">images/component.png</file>
+        <file alias="panel_hidden.png">images/eye_disabled.png</file>
+        <file alias="panel_visible.png">images/eye.png</file>
+        <file alias="panel_light.png">images/panel_texture_light.png</file>
+        <file alias="panel_texture.png">images/panel_texture.png</file>
+    </qresource>
+</RCC>
